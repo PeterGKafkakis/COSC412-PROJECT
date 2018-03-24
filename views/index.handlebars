@@ -1,2 +1,478 @@
 <h2 class="page-header">Dashboard</h2>
 <p>Welcome to your dashboard</p>  
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.7/awesome-bootstrap-checkbox.css">
+    
+</head>
+<body>
+<p><center><b>Required Computer Science Courses</p>
+<table class="table table-condensed">
+    <thead>
+        <tr>
+            <th>Select</th>
+            <th>Course Number </th>
+            <th>Course Name</th>
+            <th>Credit Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC236</td>
+            <td>INTRODUCTION TO COMPUTER SCIENCE I</td>
+            <td><center>4</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox2 class="styled""><label></label></div></td>
+            <td>COSC237</td>
+            <td>INTRODUCTION TO COMPUTER SCIENCE II</td>
+            <td><center>4</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC290</td>
+            <td>PRINCIPLES OF COMPUTER ORGANIZATION</td>
+            <td><center>4</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC336</td>
+            <td>DATA STRUCTURES AND ALGORITHM ANALYSIS</td>
+            <td><center>4</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC350</td>
+            <td>DATA COMMUNICATIONS AND NETWORKING</td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC412</td>
+            <td>SOFTWARE ENGINEERING</td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC439</td>
+            <td>OPERATING SYSTEMS</td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC455</td>
+            <td>PROGRAMMING LANGUAGES: DESIGN & IMPLEMENTATION</td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC457</td>
+            <td>DATABSE MNGT SYS</td>
+            <td><center>3</td>
+        </tr>
+       </tbody>
+    </table>
+    <table class="table table-condensed">
+ <caption><center><b>Required Math Courses</center></caption>
+    <thead>
+        <tr>
+            <th>Select</th>
+            <th>Course Number </th>
+            <th>Course Name</th>
+            <th>Credit Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>MATH263</td>
+            <td>DISCRETE MATHEMATICS</td>
+            <td><center>3</td>
+        </tr>
+
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox2 class="styled""><label></label></div></td>
+            <td> or MATH267</td>
+            <td>INTRODUCTION TO ABSTRACT MATHEMATICS</td>
+            <td><center>4</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>MATH273</td>
+            <td>CALCULUS I</td>
+            <td><center>4</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>MATH274</td>
+            <td>CALCULUS II</td>
+            <td><center>4</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>MATH330</td>
+            <td>INTRODUCTION TO STATISTICAL METHODS</td>
+            <td><center>4</td>
+        </tr>
+    </tbody>
+   </table>
+     <table class="table table-condensed">
+ <caption><center><b>Elective Math/Science Courses</center></caption>
+ <caption>Select either two math courses from the following, or one math course and one science course accepted in that major <em>7-8 credit hours</em></caption>
+    <thead>
+        <tr>
+            <th>Select</th>
+            <th>Course Number </th>
+            <th>Course Name</th>
+            <th>Credit Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>MATH265</td>
+            <td>ELEMENTARY LINEAR ALGEBRA</td>
+            <td><center>4</td>
+        </tr>
+
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox2 class="styled""><label></label></div></td>
+            <td> MATH275</td>
+            <td>CALCULUS III</td>
+            <td><center>4</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>MATH314</td>
+            <td>INTRODUCTION TO CRYPTOGRAPHY</td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>MATH369</td>
+            <td>INTRODUCTION TO ABSTRACT ALGEBRA</td>
+            <td><center>4</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>MATH377</td>
+            <td>MATHEMATICAL MODELS</td>
+            <td><center>3</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>MATH437</td>
+            <td>OPERATIONS RESEARCH I</td>
+            <td><center>3</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>MATH451</td>
+            <td>GRAPH THEORY</td>
+            <td><center>3</td>
+        </tr>
+     </tbody>
+   </table>
+
+<table class="table table-condensed">
+ <caption><center><b>Elective Computer Science Courses</center></caption>
+ <caption><em>Select at least two of the following: <em>6 credit hours</em></caption>
+    <thead>
+        <tr>
+            <th>Select</th>
+            <th>Course Number </th>
+            <th>Course Name</th>
+            <th>Credit Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC417</td>
+            <td>INT THEORY COMP</td>
+            <td><center>3</td>
+        </tr>
+
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox2 class="styled""><label></label></div></td>
+            <td>COSC432</td>
+            <td>REQUIREMENTS ANALYSIS & MODELING</td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC436</td>
+            <td>OBJECT-ORIENTED DESIGN & PROGRAMMING</td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC459</td>
+            <td>COMPUTER SIMULATION & MODELING</td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC461</td>
+            <td>ARTIFICIAL INTELLIGENCE</td>
+            <td><center>3</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC471</td>
+            <td>COMPUTER GRAPHICS</td>
+            <td><center>3</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC483</td>
+            <td>DESIGN & ANALYSIS ALGORITHMS</td>
+            <td><center>3</td>
+        </tr>
+     </tbody>
+   </table>
+   <table class="table table-condensed">
+ <caption>Select at least two of the following (Only one of COSC 397, COSC 490 and COSC 495 may be used in this category):<Elective Computer Science Courses</caption>
+    <thead>
+        <tr>
+            <th>Select</th>
+            <th>Course Number </th>
+            <th>Course Name</th>
+            <th>Credit Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox2 class="styled""><label></label></div></td>
+            <td>COSC397</td>
+            <td>INTERNSHIP/COSC</td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC431</td>
+            <td>SELECTED TOPICS COMPUTER SCIENCE</td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC440</td>
+            <td>OPERATING SYSTEMS SECURITY</td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC442</td>
+            <td>SOFTWARE QUALITY ASSURANCE AND TESTING</td>
+            <td><center>3</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC450</td>
+            <td>NETWORK SECURITY</td>
+            <td><center>3</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC458</td>
+            <td>APPLICATION SOFTWARE SECURITY</td>
+            <td><center>3</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC465</td>
+            <td>ROBOTICS</td>
+            <td><center>3</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC484</td>
+            <td>WEB-BASED PROGRAM</td>
+            <td><center>3</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC490</td>
+            <td>SOFTWARE PROJECT PRACTICUM</td>
+            <td><center>3</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC495</td>
+            <td>INDEPENDENT STUDY</td>
+            <td><center>3</td>
+        </tr>
+     </tbody>
+   </table>
+   <table class="table table-condensed">
+ <caption><center><b>Science Requirement</center></caption>
+ <caption><em>Two lab science courses</caption>
+   <thead>
+        <tr>
+            <th>Select</th>
+            <th>Course Number </th>
+            <th>Course Name</th>
+            <th>Credit Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox2 class="styled""><label></label></div></td>
+            <td>ASTR161</td>
+            <td>GENERAL ASTRONOMY I </td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>ASTR162</td>
+            <td>GENERAL ASTRONOMY II</td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>BIOL201</td>
+            <td>OPERATING SYSTEMS SECURITY</td>
+            <td><center>3</td>
+        </tr>
+          <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>BIOL202</td>
+            <td>SOFTWARE QUALITY ASSURANCE AND TESTING</td>
+            <td><center>3</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>BIOL205</td>
+            <td>NETWORK SECURITY</td>
+            <td><center>3</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>BIOL207</td>
+            <td>APPLICATION SOFTWARE SECURITY</td>
+            <td><center>3</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>CHEM131+L</td>
+            <td>GENERAL CHEMISTRY I LECTURE+LAB</td>
+            <td><center>4</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>CHEM132+L</td>
+            <td>GENERAL CHEMISTRY II LECTURE+LAB</td>
+            <td><center>4</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>CHEM210</td>
+            <td>ANALYTICAL CHEMISTRY</td>
+            <td><center>5</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>CHEM323</td>
+            <td>INORGANIC CHEMISTRY</td>
+            <td><center>4</td>
+        </tr>
+       <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>CHEM331</td>
+            <td>ORGANIC CHEMISTRY I </td>
+            <td><center>5</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>GEOL121</td>
+            <td>PHYSICAL GEOLOGY</td>
+            <td><center>4</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>PHYS241</td>
+            <td>GENERAL PHYSICS I CALCULUS-BASED</td>
+            <td><center>4</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>PHYS242</td>
+            <td>GENERAL PHYSICS II CALCULUS-BASED</td>
+            <td><center>4</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>PHYS243</td>
+            <td>GENERAL PHYSICS III</td>
+            <td><center>4</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>PHYS251</td>
+            <td>HONORS GENERAL PHYSICS I CALCULUS-BASED</td>
+            <td><center>4</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>PHYS252</td>
+            <td>HONOR GENERAL PHYSICS II CALCULUS-BASED</td>
+            <td><center>4</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>PHYS335</td>
+            <td>BASIC ELECTRONICS</td>
+            <td><center>4</td>
+        </tr>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>PHYS337</td>
+            <td>DIGITAL ELECTRONICS</td>
+            <td><center>4</td>
+        </tr>
+     </tbody>
+  </table>
+  <table class="table table-condensed">
+ <caption><center><b>Other Requirements</center></caption>
+ <caption><em>Must be completed with a grade equivalent of 2.00 or higher. <em>6 credit hours</em></caption>
+    <thead>
+        <tr>
+            <th>Select</th>
+            <th>Course Number </th>
+            <th>Course Name</th>
+            <th>Credit Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COMM131</td>
+            <td>FUNDAMENTALS OF SPEECH COMMUNICATION (Core 5)</td>
+            <td><center>3</td>
+       </tr>
+         <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>COSC418</td>
+            <td>ETHICAL AND SOCIETAL CONCERNS OF COMPUTER SCIENTISTS (Core 14)</td>
+            <td><center>3</td>
+       </tr>
+       <tr>
+            <td><div class="checkbox checkbox-success"><input type="checkbox" id="checkbox1" class="styled"><label></label></div></td>
+            <td>ENGL317</td>
+            <td>WRITING FOR BUSINESS AND INDUSTRY (Core 9)</td>
+            <td><center>3</td>
+       </tr>
+   </tbody>
+   </table>
+  </body>
+</html>
